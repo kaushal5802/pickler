@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Pickler - Pickleball Score Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### Overview
+Pickler is a web application built with React and Firebase, designed to help pickleball players and tournament organizers keep track of scores, manage teams, and host round-robin tournaments seamlessly. The platform supports Google Authentication for user access and provides a simple, intuitive interface for score tracking.
 
-## Available Scripts
+#### Features
+- Google Authentication: Users can log in with their Google accounts for a secure and personalized experience.
+- Team Entry: Easily create and manage teams for matches.
+- Score Tracking: Real-time score updates during matches.
+- Tournament Management: Organize and track round-robin tournaments.
 
-In the project directory, you can run:
+#### Technology Stack
+- Frontend: ReactJS 
+- Backend: Firebase (Authentication, Firestore for data storage)
 
-### `npm start`
+#### Installation
+- To run the project locally, follow these steps:
+- Clone the repository: git clone https://github.com/kaushal5802/pickler.git
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#### Navigate to the project directory:
+- cd pickler
+- Install dependencies: npm install
+- Create a Firebase project and configure Firebase for your app (add your Firebase config to a .env file).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### Run the app:
+- npm start
+- Access the app at http://localhost:3000.
 
-### `npm test`
+#### Firebase Setup
+To use Firebase services, create a new project in Firebase Console and set up:
+- Firebase Authentication (Google provider)
+- Firestore for storing team and tournament data
+- Log in using Google authentication.
+- Create a new team and add players.
+- Start a match and track scores.
+- Leaderboards: Adding player and team rankings.
+- Match History: View previous match details.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Contributing
+We welcome contributions! Feel free to submit a pull request or raise issues for new features or bug fixes.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# License
+This project is licensed under the MIT License - see the LICENSE file for details.
